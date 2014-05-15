@@ -2,7 +2,7 @@
 Implement Restful service to convert the office document to pdf and then show it in a html page.
 JodConverter and PDF.js are used in this project.
 
-1. GET GetDOCViewerRESTService
+--- GET GetDOCViewerRESTService
 
 Returns a pdf file or html page converted from the document located in the URL indicated by the OutputType and reference parameters.
  
@@ -14,8 +14,8 @@ OutputType : When set to html, a html page will be rendered to show the pdf file
 
 reference: Specifies the URL where the document to be converted is located. Note the document could be office document like .doc, .docx, .xlsx and .pptx files.Example Values: http://c0043436.itcs.com:8080/DOCViewer/web/tmp/test.doc
 
- 
-2. POST PostDOCViewerRESTService
+
+--- POST PostDOCViewerRESTService
 
 Converts the uploaded document and Returns URL in json data pointing to a html page to show the document. Note this method only expect office documents like .doc, .docx, .xlsx and .pptx files.
  
